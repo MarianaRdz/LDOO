@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>REGISTRO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Registro</div>
+        <form action="Registro" method="post">
+            Nombre: <input type="text" name="nombre"><br>
+            Primer Apellido: <input type="text" name="PrimerApellido"><br>
+            Segundo Apellido: <input type="text" name="SegundoApellido"><br>
+            Fecha de Nacimiento: <select>
+            
+            <option name="mes" value="Enero">Enero</option>
+            <option name="mes" value="Febrero">Febrero</option>
+            <option name="mes" value="Marzo">Marzo</option>
+            <option name="mes" value="Abril">Abril</option>
+            <option name="mes" value="Mayo">Mayo</option>
+            <option name="mes" value="Junio">Junio</option>
+            <option name="mes" value="Julio">Julio</option>
+            <option name="mes" value="Agosto">Agosto</option>
+            <option name="mes" value="Septiembre">septiembre</option>
+            <option name="mes" value="Octubre">Octubre</option>
+            <option name="mes" value="Noviembre">Noviembre</option>
+            <option name="mes" value="Diciembre">Diciembre</option>
+        </select><br>
+        
+        E-mail:<input type="text" name="correo"><br>
+        
+        Contraseña: <input type="password" name="password"><br>
+        
+        <button type="reset" onClick=document.forms["formRegistro"].reset();> Borrar </button>
+        
+        <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
